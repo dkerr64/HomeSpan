@@ -43,6 +43,7 @@
 #include "HomeSpan.h"
 #include "HAP.h"
 #include <algorithm>
+#include <mutex>
 
 const __attribute__((section(".rodata_custom_desc"))) SpanPartition spanPartition = {HOMESPAN_MAGIC_COOKIE,0};
 
